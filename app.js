@@ -48,7 +48,6 @@ app.get('*', (req, res) => {
 return 	res.redirect("/api/pedidos")
 });
 
-
 // WEBSOCKETS - Socket.io
 // (socket) ---> Viene de view.js cuando lo iniciamos
 io.sockets.on('connection', async function (socket) {
